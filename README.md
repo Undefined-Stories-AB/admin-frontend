@@ -9,7 +9,7 @@ NOTE: While developeing, run both `npm run dev` and `npm run build:watch` for li
 Build and deploy `./dist/` folder.
 Or simply run `npm run dev` and access site at `http://localhost:8090`.
 
-Login using Findus login details provided from admin.
+Login using Findus login details provided by admin.
 
 
 Make sure that `findus-backend` is running and is accessible on `http://localhost:8080/findus`
@@ -24,4 +24,4 @@ For some reason, the `PORT` doesn't get assigned properly unless using explicitl
 
 ## Troubleshooting
 
-If you fail to Authenticate properly, make sure that you are logged in by manually removing any existing expired JWT token in Session Storage.
+If you fail to Authenticate properly, make sure that you are logged in by manually removing any existing expired JWT token in Session Storage and logging in again.
