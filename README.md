@@ -12,7 +12,7 @@ Or simply run `npm run dev` and access site at `http://localhost:8090`.
 Login using Findus login details provided from admin.
 
 
-Make sure that `findus-backend` is running and is accessible on `http://localhost:8080`
+Make sure that `findus-backend` is running and is accessible on `http://localhost:8080/findus`
 
 Environment Variables are stored in `./esbuild.ts`, as opposed to .env, feel free to change this.
 
